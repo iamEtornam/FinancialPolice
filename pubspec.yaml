@@ -53,6 +53,7 @@ flutter:
    - assets/images/ic_linkedin.png
    - assets/images/ic_medium.png
    - assets/images/ic_avatar.png
+   - assets/images/bg_image.jpg
 
    - assets/data/currencies.json
 
