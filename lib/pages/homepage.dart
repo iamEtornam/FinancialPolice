@@ -297,7 +297,7 @@ class _HomePageState extends State < HomePage > {
                   subtitle: Text('GH₵2905',
                     style: TextStyle(
                       color: Colors.green,
-                      fontFamily: 'Champagne_Limousines'
+                      fontFamily: 'Champagne_Limousines',
                     ),
                      ),
                 ),
