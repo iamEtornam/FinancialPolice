@@ -15,7 +15,7 @@ static Database _db;
 DatabaseHelper.internal();
 
 Future<Database> get db async{
-  if(_db !- null){
+  if(_db != null){
     return _db;
   }
   _db = await initDb();
@@ -37,7 +37,7 @@ initDb() async{
         'CREATE TABLE $tableCategory($columnId INTEGER PRIMARY KEY, $columnName TEXT, $columnTimestamp TEXT)');
   }
 
-   Future<int> saveNote(Category category) async {
+   Future<int> saveCategory(Category category) async {
     var dbClient = await db;
     var result = await dbClient.insert(tableCategory, category.toMap());
 
