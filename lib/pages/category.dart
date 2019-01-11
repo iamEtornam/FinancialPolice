@@ -21,17 +21,17 @@ class _CategoryPageState extends State < CategoryPage > {
     super.dispose();
   }
 
-  Future saveCategory(String text) async {
+  Future addCategory(String text) async {
     if (text != null) {
       await db.saveCategory(new Category(text, DateTime.now().millisecondsSinceEpoch));
 
-      db.getAllCategory().then((categories){
-setState(() {
-  items.clear();
-  categories.forEach((category){
-    items.add(Category.fromMap(category));
-  });
-});
+      db.getAllCategory().then((categories) {
+        setState(() {
+          items.clear();
+          categories.forEach((category) {
+            items.add(Category.fromMap(category));
+          });
+        });
       });
 
       Fluttertoast.showToast(
@@ -52,11 +52,6 @@ setState(() {
         textColor: Colors.white
       );
     }
-
-
-
-
-
 
     print('=== getAllCategory() ===');
     categories = await db.getAllCategory();
@@ -94,7 +89,7 @@ setState(() {
               style: TextStyle(
                 fontFamily: 'Champagne_Limousines'
               ),
-               ),
+            ),
           );
         },
       ),
@@ -147,9 +142,7 @@ setState(() {
                             color: Colors.pink,
                             onPressed: () async {
                               print(myController.text);
-
-                              saveCategory(myController.text);
-
+                              addCategory(myController.text);
                             },
                             child: Text('Save',
                               style: TextStyle(
