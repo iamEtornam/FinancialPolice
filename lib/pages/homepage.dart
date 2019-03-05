@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:financial_police/pages/about_app.dart';
 import 'package:financial_police/pages/about_dev.dart';
 import 'package:financial_police/pages/auth_page.dart';

@@ -1,3 +1,5 @@
+import 'dart:async';
+
 import 'package:financial_police/pages/pincode_confirm_page.dart';
 import 'package:flutter/material.dart';
 import 'package:pin_code_view/pin_code_view.dart';
@@ -9,10 +11,10 @@ class PinCodeSet extends StatefulWidget {
   _PinCodeSetState createState() => _PinCodeSetState();
 }
 
-class _PinCodeSetState extends State < PinCodeSet > {
+class _PinCodeSetState extends State<PinCodeSet> {
   static final String isSaved1 = "isSaved1";
 
-  static Future < bool > setPinAction(String value) async {
+  static Future<bool> setPinAction(String value) async {
     final SharedPreferences prefs = await SharedPreferences.getInstance();
 
     return prefs.setString(isSaved1, value);
@@ -25,20 +27,15 @@ class _PinCodeSetState extends State < PinCodeSet > {
         title: Text(
           "Authenticate",
           style: TextStyle(
-            color: Colors.white, fontSize: 25.0, fontWeight: FontWeight.bold),
+              color: Colors.white, fontSize: 25.0, fontWeight: FontWeight.bold),
         ),
-
-        subTitle: Text(
-          'Enter the pin code',
-          style: TextStyle(color: Colors.white,
-            fontFamily: 'Champagne_Limousines')
-        ),
+        subTitle: Text('Enter the pin code',
+            style: TextStyle(
+                color: Colors.white, fontFamily: 'Champagne_Limousines')),
         codeLength: 4,
         obscurePin: true,
-        keyTextStyle: TextStyle(
-          fontFamily: 'Champagne_Limousines',
-          color: Colors.white
-        ),
+        keyTextStyle:
+            TextStyle(fontFamily: 'Champagne_Limousines', color: Colors.white),
         onCodeEntered: (code) {
           //callback after full code has been entered
           print(code);
@@ -48,18 +45,16 @@ class _PinCodeSetState extends State < PinCodeSet > {
     );
   }
 
-  void _savePin(code) async{
+  void _savePin(code) async {
     setPinAction(code);
-     Fluttertoast.showToast(
+    Fluttertoast.showToast(
         msg: "Confirm Pin Code",
         toastLength: Toast.LENGTH_SHORT,
         gravity: ToastGravity.BOTTOM,
         timeInSecForIos: 1,
         backgroundColor: Colors.blue,
-        textColor: Colors.white
-    );
-    Navigator.pushReplacement(context, MaterialPageRoute(
-      builder: (context) => PinCodeConfirm()
-    ));
+        textColor: Colors.white);
+    Navigator.pushReplacement(
+        context, MaterialPageRoute(builder: (context) => PinCodeConfirm()));
   }
 }
