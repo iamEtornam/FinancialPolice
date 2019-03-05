@@ -11,6 +11,7 @@ class DatabaseHelper {
   final String tableCategory = 'categoryTable';
   final String columnId = 'id';
   final String columnName = 'name';
+  final String columnValue = 'value';
   final String columnTimestamp = 'timestamp';
   static Database _db;
 
@@ -36,7 +37,7 @@ class DatabaseHelper {
 
   void _onCreate(Database db, int newVersion) async {
     await db.execute(
-        'CREATE TABLE $tableCategory($columnId INTEGER PRIMARY KEY, $columnName TEXT, $columnTimestamp TEXT)');
+        'CREATE TABLE $tableCategory($columnId INTEGER PRIMARY KEY, $columnName TEXT, $columnValue TEXT, $columnTimestamp TEXT)');
   }
 
   Future<int> saveCategory(Category category) async {
