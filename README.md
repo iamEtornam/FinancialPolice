@@ -1,13 +1,11 @@
 # Financial_Police_app
 
 <p align="center">
-    
-[![Maintenance](https://img.shields.io/badge/Maintained%3F-yes-green.svg)](https://github.com/RegNex/FinancialPolice/graphs/commit-activity)
-[![ForTheBadge built-with-love](http://ForTheBadge.com/images/badges/built-with-love.svg)](https://github.com/RegNex/)
-[![ForTheBadge made-with-flutter](https://img.shields.io/badge/flutter-made%20with%20flutter-blue.svg)](https://flutter.dev)
-[![ForTheBadge ios-supported](https://img.shields.io/badge/IOS-IOS%20Supported-lightgrey.svg)](https://flutter.dev)
-[![ForTheBadge ios-android](https://img.shields.io/badge/android-android%20supported-green.svg)](https://flutter.dev)
-
+    <img src="http://ForTheBadge.com/images/badges/built-with-love.svg"/>
+<img src="https://img.shields.io/badge/Maintained%3F-yes-green.svg"/>
+<img src="https://img.shields.io/badge/flutter-made%20with%20flutter-blue.svg"/>
+<img src="https://img.shields.io/badge/IOS-IOS%20Supported-lightgrey.svg"/>
+<img src="https://img.shields.io/badge/android-android%20supported-green.svg"/>
 </p>
 
 An implementation of an expenses management app
