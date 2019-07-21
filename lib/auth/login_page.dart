@@ -41,16 +41,16 @@ class LoginPage extends StatelessWidget {
                           fontSize: 16.0,
                           fontFamily: 'Champagne_Limousines'),
                     ),
-                    SizedBox(height: 40.0),
-                    SpinKitFadingCircle(
-                      itemBuilder: (_, int index) {
-                        return DecoratedBox(
-                          decoration: BoxDecoration(
-                            color: index.isEven ? Colors.yellow : Colors.pink,
-                          ),
-                        );
-                      },
-                    ),
+                    SizedBox(height: MediaQuery.of(context).size.height/2),
+                    // SpinKitFadingCircle(
+                    //   itemBuilder: (_, int index) {
+                    //     return DecoratedBox(
+                    //       decoration: BoxDecoration(
+                    //         color: index.isEven ? Colors.yellow : Colors.pink,
+                    //       ),
+                    //     );
+                    //   },
+                    // ),
                     SizedBox(height: 10.0),
                     FlatButton.icon(
                       onPressed: () {
