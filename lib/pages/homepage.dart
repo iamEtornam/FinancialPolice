@@ -12,7 +12,6 @@ import 'package:financial_police/pages/records_overview_page.dart';
 import 'package:financial_police/pages/settings.dart';
 import 'package:flutter/material.dart';
 import 'package:shared_preferences/shared_preferences.dart';
-import 'package:financial_police/sharePref/Shared_pref_data.dart';
 
 class HomePage extends StatefulWidget {
   @override
