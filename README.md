@@ -14,17 +14,17 @@ An implementation of an expenses management app
 
 ## Art
 
-<img align="left" src="https://github.com/RegNex/FinancialPolice/blob/master/screenshots/screen_1.png" height="500"/>
-<img src="https://github.com/RegNex/FinancialPolice/blob/master/screenshots/screen_2.png" height="500"/>
+<img align="left" src="https://raw.githubusercontent.com/RegNex/FinancialPolice/master/screenshots/screen_1.png" height="500"/>
+<img src="https://raw.githubusercontent.com/RegNex/FinancialPolice/master/screenshots/screen_2.png" height="500"/>
 
-<img align="left" src="https://github.com/RegNex/FinancialPolice/blob/master/screenshots/screen_3.png" height="500"/>
-<img src="https://github.com/RegNex/FinancialPolice/blob/master/screenshots/screen_4.png" height="500"/>
+<img align="left" src="https://raw.githubusercontent.com/RegNex/FinancialPolice/master/screenshots/screen_3.png" height="500"/>
+<img src="https://raw.githubusercontent.com/RegNex/FinancialPolice/master/screenshots/screen_4.png" height="500"/>
 
-<img align="left" src="https://github.com/RegNex/FinancialPolice/blob/master/screenshots/screen_5.png" height="500"/>
-<img src="https://github.com/RegNex/FinancialPolice/blob/master/screenshots/screen_6.png" height="500"/>
+<img align="left" src="https://raw.githubusercontent.com/RegNex/FinancialPolice/master/screenshots/screen_5.png" height="500"/>
+<img src="https://raw.githubusercontent.com/RegNex/FinancialPolice/master/screenshots/screen_6.png" height="500"/>
 
-<img align="left" src="https://github.com/RegNex/FinancialPolice/blob/master/screenshots/screen_7.png" height="500"/>
-<img src="https://github.com/RegNex/FinancialPolice/blob/master/screenshots/screen_8.png" height="500"/>
+<img align="left" src="https://raw.githubusercontent.com/RegNex/FinancialPolice/master/screenshots/screen_7.png" height="500"/>
+<img src="https://raw.githubusercontent.com/RegNex/FinancialPolice/master/screenshots/screen_8.png" height="500"/>
 
 ## Getting Started
 
